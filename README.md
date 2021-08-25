@@ -17,7 +17,7 @@ Exploring the [pwa-starter](https://github.com/Multiplatform-Dev/pwastarter-demo
  * GitHub Pages allows use of `docs/` as default static site assets folder
  * Renamed dist/ to docs, committed to GitHub
  * Activated GitHub Pages in [Repo Settings](https://github.com/Multiplatform-Dev/pwastarter-demo/settings/pages)
- * Committed Changes
+ * Updated "start_url" in manifest.json to correct path ("/pwastarter-demo") for app.
 
 ---
 
