@@ -14,12 +14,25 @@ Exploring the [pwa-starter](https://github.com/Multiplatform-Dev/pwastarter-demo
 
  * Exploring deploy to default Github Pages endpoint
  * Build defaults to `dist/` directory (is .gitignored)
+
+> OPTION 1: Scoped project page endpoint (under user/org)
  * GitHub Pages allows use of `docs/` as default static site assets folder
  * Renamed dist/ to docs, committed to GitHub
  * Activated GitHub Pages in [Repo Settings](https://github.com/Multiplatform-Dev/pwastarter-demo/settings/pages)
  * Updated "start_url" in manifest.json to correct path ("/pwastarter-demo") for app.
  * Don't forget: rebuild for production, move `dist/` to `docs/`
  * Visit [Github Pages Endpoint](https://multiplatform-dev.github.io/pwastarter-demo/) and verify app hosted correctly.
+ * `TODO:` - Resulted in error due to service worker scope settings not reflecting start_url. TBD.
+
+> OPTION 2: Default user or org page endpoint:
+* Moved distribution to default organization GitHub page endpoint (no change to start_url)
+* See [this repo](https://github.com/Multiplatform-Dev/multiplatform-dev.github.io)
+* See [this hosted endpoint](https://multiplatform-dev.github.io/)
+* This option works out of the box
+
+> OPTION 3:
+ * Use [Azure static website hosting](https://docs.microsoft.com/en-us/learn/modules/publish-app-service-static-web-app-api/)
+ * `TODO` - Explore this and update doc with findings.
 
 ---
 
