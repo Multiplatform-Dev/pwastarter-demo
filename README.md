@@ -18,6 +18,8 @@ Exploring the [pwa-starter](https://github.com/Multiplatform-Dev/pwastarter-demo
  * Renamed dist/ to docs, committed to GitHub
  * Activated GitHub Pages in [Repo Settings](https://github.com/Multiplatform-Dev/pwastarter-demo/settings/pages)
  * Updated "start_url" in manifest.json to correct path ("/pwastarter-demo") for app.
+ * Don't forget: rebuild for production, move `dist/` to `docs/`
+ * Visit [Github Pages Endpoint](https://multiplatform-dev.github.io/pwastarter-demo/) and verify app hosted correctly.
 
 ---
 
