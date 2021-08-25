@@ -1,3 +1,26 @@
+# PWAStarter Demo
+
+Exploring the [pwa-starter](https://github.com/Multiplatform-Dev/pwastarter-demo) template capabilities for potential PWA apps and demos.
+
+> SETUP
+
+ * Clicked `Use this Template` on [pwa-starter](https://github.com/pwa-builder/pwa-starter) repo.
+ * Saved to **this** repo, to create my "demo" app.
+ * Cloned to desktop. followed [development instructions](https://github.com/Multiplatform-Dev/pwastarter-demo#development)
+ * Followed [Building For Production](https://github.com/Multiplatform-Dev/pwastarter-demo#building-for-production) - created `dist/` folder
+ * Tested locally using `python3 -m http.server` on MacOS.
+
+> DEPLOY
+
+ * Exploring deploy to default Github Pages endpoint
+ * Build defaults to `dist/` directory (is .gitignored)
+ * GitHub Pages allows use of `docs/` as default static site assets folder
+ * Renamed dist/ to docs, committed to GitHub
+ * Activated GitHub Pages in [Repo Settings](https://github.com/Multiplatform-Dev/pwastarter-demo/settings/pages)
+ * Committed Changes
+
+---
+
 # pwa-starter
 
 <img loading="lazy" alt="an image of what the starter looks like" src="https://github.com/pwa-builder/pwa-starter/raw/master/assets/readme/intro.png"/>
